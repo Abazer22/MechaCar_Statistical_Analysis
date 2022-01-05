@@ -63,3 +63,28 @@ A summary of the t-test results across lot3
 
 Lot 3, not surprisingly is a different scenario. Here the sample mean is 1496.14 and the p-Value is 0.04, which is lower than the common significance level of 0.05. All indicating to reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.
 
+## Deliverable 4:
+### Study Design: MechaCar vs Competition
+
+The plan is to design the MechaCar vehicle to perform better than the general marketplace vehicles. To accomplish this goal I believe atttention is best served improving the fuel efficiency of the MechaCar. Data needs to be gathered for all MechaCar manufacturing designs, in addition to the current six variables from this analysis. Additional data could include weather conditions, i.e. wind sheer, rain, heat, etc. Varying distances of short trips and long trips are also needed to determine fuel efficiency, as well as fuel efficiency over time. The dataset must include general marketplace competitor's data for comparison.
+
+##### What metric or metrics are you going to test?
+The data will meet the following metrics:
+
+All data is to be numerical
+Data samples will be as large as possible
+Data samples need to be randomly selected
+Variance of data needs to be similar
+##### What is the null hypothesis or alternative hypothesis?
+
+HO: There is no statistical difference between the competition's mpg dataset and MechaCar's mpg dataset.
+
+Ha: The true mean of MechaCar's mpg is greater than the mean of the competitor's mpg.
+
+##### What statistical test would you use to test the hypothesis? And why?
+
+I reccomend using the t-test to compare our dataset with the competitors. The t-test has already been used for this current analysis and provided the predictions needed to take the next steps for improvement.
+
+##### What data is needed to run the statistical test?
+
+The p-value would be set at 0.05. Data that results in a prediction of a p-value smaller than 0.05 would provide predictive evidence that the null hypothesis could be rejected and state that the Ha is true. Providing evidence that the Ha is true would also predict that the MechaCar provides consistently better fuel efficiency than the competitors mpg. There is always room for error and better fuel efficiency may not happen all of the time, but at least 95% of the time.
